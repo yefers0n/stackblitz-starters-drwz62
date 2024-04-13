@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>darkminds</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img
+              src="https://live.staticflickr.com/65535/53647595256_ec54cd099f_n.jpg"
+              alt=""
+              width="125px"
+            />
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="">Mouses</a></li>
+              <li><a href="">Monitores</a></li>
+              <li><a href="">Teclados</a></li>
+              <li><a href="">Audifonos</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <img
+            src="https://i.imgur.com/m1cabrV.png"
+            width="30px"
+            height="30px"
+          />
+          <img
+            src="https://i.imgur.com/1bJVRgP.png"
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Crea <br />Tu Propio Estilo</h1>
+            <p>
+              ¡el exito no siempre es acerca de la gandresa!, es acerca de la
+              constancia.
+            </p>
+            <a href="" class="btn">Explora ahora &#8250;</a>
+          </div>
+          <div class="col-2">
+            <img src="https://i.imgur.com/CBKlB6m.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--categorias-->
+    <div class="categories">
+      <div class="small-container"></div>
+      <div class="row">
+        <div class="col-3">
+          <img src="https://i.imgur.com/QBCsZaG.jpg" alt="" />
+        </div>
+        <div class="col-3">
+          <img src="https://i.imgur.com/l2pxu3i.jpg" alt="" />
+        </div>
+        <div class="col-3">
+          <img src="https://i.imgur.com/5py1lz4.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--productos destacados-->
+    <div class="small-container">
+      <h2 class="title">Productos Destacados</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="https://i.imgur.com/cftCvXC.jpg" alt="" />
+          <h4>Camiseta Roja</h4>
+
+
+          <p>$60.000</p>
+        </div>
+        <div class="col-4">
+          <img src="https://i.imgur.com/OdnCpW9.jpg" alt="" />
+          <h4>Camiseta Roja</h4>
+          <div class="Rating"></div>
+          <p>$60.000</p>
+        </div>
+        <div class="col-4">
+          <img src="https://i.imgur.com/k6sQHw7.jpg" alt="" />
+          <h4>Camiseta Roja</h4>
+          <p>$60.000</p>
+        </div>
+        <div class="col-4">
+          <img src="https://i.imgur.com/P2omRFF.jpg" alt="" />
+          <h4>Camiseta Roja</h4>
+          <p>$60.000</p>
+        </div>
+      </div>
+      <h2 class="title">Ultimos Productos</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="https://i.imgur.com/02XSVD5.jpg" alt="" />
+          <h4>Camiseta Roja</h4>
+
+
+          <p>$60.000</p>
+        </div>
+        <div class="col-4">
+          <img src="https://i.imgur.com/5RKrKUN.jpg" alt="" />
+          <h4>Camiseta Roja</h4>
+          <div class="Rating"></div>
+          <p>$60.000</p>
+        </div>
+        <div class="col-4">
+          <img src="https://i.imgur.com/0vsQazI.jpg" alt="" />
+          <h4>Camiseta Roja</h4>
+          <p>$60.000</p>
+        </div>
+        <div class="col-4">
+          <img src="https://i.imgur.com/rVQ3cJi.jpg" alt="" />
+          <h4>Camiseta Roja</h4>
+          <p>$60.000</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!--ofertas-->
+    <div class="ofertas">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="https://i.imgur.com/iMoukWx.png" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Producto Exclusivo</p>
+            <h1>smart Band 4</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Descarga Nuestra App</h3>
+            <p>Descarga nuesta App para Android o IOS</p>
+            <div class="app-logo">
+              <img src="https://i.imgur.com/20I3H6F.png" />
+              <img src="https://i.imgur.com/xj3M1RU.png" />
+            </div>
+            <p></p>
+          </div>
+          <div class="footer-col-2">
+            <img src="https://i.imgur.com/V9SrNtR.png" alt="" />
+            <p>Nuestro proposito es acercarte a tu maximo desempeño.</p>
+            <p></p>
+          </div>
+          <div class="footer-col-3">
+            <p>Nuestros Links</p>
+            <ul>
+              <li>Cupones</li>
+              <li>Blog</li>
+              <li>Politica de Reembolso</li>
+            </ul>
+            <p></p>
+          </div>
+          <div class="footer-col-4">
+            <p>Siguenos</p>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>TIKTOK</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">2024 todos lo derechos reservados.</p>
+      </div>
+    </div>
+
+
+    <!--codigo javascript para menu-->
+    <script>
+      var MenuItems = document.getElementById('MenuItems');
+      MenuItems.style.maxHeight = '0px';
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == '0px') {
+          MenuItems.style.maxHeight = '200px';
+        } else {
+          MenuItems.style.maxHeight = '0px';
+        }
+      }
+    </script>
+  </body>
+</html>
